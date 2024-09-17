@@ -1,0 +1,79 @@
+nav{
+    background-color: #F3D503 !important;
+}
+
+.padding-left{
+    padding-left: 8%;
+}
+.container-fluid{
+    padding: 0 !important;
+}
+
+.intro{
+    width: 75%;
+    flex-shrink: 0;
+    margin-top: 42px;
+    font-size: 5em;
+}
+#about-us-text{
+    margin-top: 32px;
+    width: 80%;
+    flex-shrink: 0;
+}
+.title{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+/* Button Styles */
+
+.btn{
+    background-color: #F3D503;
+    color: black;
+    border: none;
+    padding: 16px 24px;
+}
+.btn:hover {
+    background-color: #ffe102 !important;
+}
+
+/* Text Styles */
+
+h1 {
+    color: #000;
+    font-family: Roboto;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 116.7%;
+    letter-spacing: -1.5px;
+}
+
+p {
+    font-family: "Public Sans";
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 27px;
+}
+
+/* Why Choose TechHub section */
+
+#why-us-section{
+    background: #F0F0F0;
+}
+
+footer{
+    background-color: #F3D503 !important;
+}
+
+@media only screen and (max-width: 1024px) {
+    .padding-left{
+        padding-left: 30px;
+    }
+    .intro{
+        width: 100%;
+    }
+    #about-us-text{
+        width: 100%;
+    }
+}
+
